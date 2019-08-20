@@ -7,7 +7,7 @@ Support for connecting to Windows instances over WinRM is included.
 ## Build the container
 
 ```bash
-docker build -t matthodge/ansible:latest .
+docker build -t ncrisler/ansible:latest .
 ```
 
 ## Use the container
