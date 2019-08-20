@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:latest
 
 RUN echo "===> Installing sudo to emulate normal OS behavior..."  && \
     apk --update add sudo                                         && \
@@ -16,7 +16,7 @@ RUN echo "===> Installing sudo to emulate normal OS behavior..."  && \
     \
     \
     echo "===> Installing Ansible..."  && \
-    pip install ansible==2.5.7         && \
+    pip install ansible         && \
     \
     \
     echo "===> Installing pip packages ..."  && \
